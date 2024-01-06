@@ -38,7 +38,7 @@ if gameName == "rdr3" then
 		"ui/rdr3.css"
 	}
 
-	client_script "@uiprompt/uiprompt.lua"
+	client_script "@uiprompt/[ Client ]/[ Prompt ]/UIPrompt.lua"
 
 	client_scripts {
 		"data/rdr3/animations.lua",
