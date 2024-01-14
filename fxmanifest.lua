@@ -31,14 +31,14 @@ server_scripts {
 }
 
 if gameName == "rdr3" then
-	dependency "uiprompt"
+	dependency "Phoenix--Interaction"
 
 	files {
 		"ui/chineserocks.ttf",
 		"ui/rdr3.css"
 	}
 
-	client_script "@uiprompt/[ Client ]/[ Prompt ]/UIPrompt.lua"
+	client_script "@Phoenix--Interaction/[ Client ]/[ Prompt ]/UIPrompt.lua"
 
 	client_scripts {
 		"data/rdr3/animations.lua",
