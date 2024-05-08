@@ -26,8 +26,7 @@ shared_scripts {
 }
 
 server_scripts {
-	"server.lua",
-	"Version.lua"
+	"server.lua"
 }
 
 if gameName == "rdr3" then
@@ -38,9 +37,9 @@ if gameName == "rdr3" then
 		"ui/rdr3.css"
 	}
 
-	client_script "@Phoenix--Interaction/[ Client ]/[ Prompt ]/UIPrompt.lua"
-
 	client_scripts {
+		"@Phoenix-Core/[ Utilities ]/Utils.lua",
+		"@Phoenix--Interaction/[ Client ]/[ Prompt ]/UIPrompt.lua",
 		"data/rdr3/animations.lua",
 		"data/rdr3/bones.lua",
 		"data/rdr3/objects.lua",
